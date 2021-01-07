@@ -1,0 +1,56 @@
+//
+// getbenonit ( _spacings.scss )
+//
+// @package   getbenonit
+// @copyright Copyright (C) 2020. Benjamin Lu
+// @license   GNU General Public License v2 or later ( https://www.gnu.org/licenses/gpl-2.0.html )
+// @author    Benjamin Lu ( https://benjlu.com )
+//
+
+h1 {
+	display: block;
+	font-family: $font-family-heading;
+	font-size: $text-6xlg;
+	font-weight: 700;
+	margin: 0.67em 0;
+}
+
+h2 {
+	display: block;
+	font-family: $font-family-heading;
+	font-size: $text-3xlg;
+	font-weight: 700;
+	margin: 0.83em 0;
+}
+
+h3 {
+	display: block;
+	font-family: $font-family-heading;
+	font-size: $text-1xlg;
+	font-weight: 700;
+	margin: 1em 0;
+}
+
+h4 {
+	display: block;
+	font-family: $font-family-heading;
+	font-size: $text-xlg;
+	font-weight: 700;
+	margin: 1.33em 0;
+}
+
+h5 {
+	display: block;
+	font-family: $font-family-heading;
+	font-size: $text-lg;
+	font-weight: 700;
+	margin: 1.67em 0;
+}
+
+h6 {
+	display: block;
+	font-family: $font-family-heading;
+	font-size: $text-base;
+	font-weight: 700;
+	margin: 2.33em 0;
+}

@@ -1,0 +1,18 @@
+//
+// getbenonit ( _spacings.scss )
+//
+// @package   getbenonit
+// @copyright Copyright (C) 2020. Benjamin Lu
+// @license   GNU General Public License v2 or later ( https://www.gnu.org/licenses/gpl-2.0.html )
+// @author    Benjamin Lu ( https://benjlu.com )
+//
+/**
+ *  3.0 - Alignments
+ */
+
+ .wp-block-cover {
+	 &__inner-container {
+		 margin: 0 auto;
+		 max-width: 1170px;
+	 }
+ }

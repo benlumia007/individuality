@@ -1,0 +1,85 @@
+//
+// Initiator ( _editor.scss )
+//
+// @package     Initiator
+// @copyright   Copyright (C) 2019-2020. Benjamin Lu
+// @license     GNU General Public License v2 or later ( https://www.gnu.org/licenses/gpl-2.0.html )
+// @author      Benjamin Lu ( https://benjlu.com )
+//
+
+//
+// Table of editor
+//
+// 1.0 - editor
+//
+
+//
+// 1.0 - editor
+//
+.site-blog {
+	background: #eeeeee;
+
+	.content-area {
+		margin: 0 auto;
+		max-width: 73.125em;
+		padding-top: 3em;
+
+		.entry-header {
+			text-align: center;
+
+			.entry-title,
+			.entry-description {
+				margin: 0;
+				padding: 0;
+			}
+		}
+
+		.blog-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 1.125em;
+
+			.blog-items {
+				margin: 1.125em 0;
+
+				.post-thumbnail {
+					margin: 0 0 0 0;
+				}
+
+				.entry-header {
+					text-align: center;
+
+					.entry-metadata {
+						font-size: 0.938em;
+						margin: 0.2em 0;
+						text-align: center;
+			
+						.fa-user {
+							padding-right: 0.313em;
+						}
+			
+						.fa-calendar-alt,
+						.fa-comment {
+							padding: 0 0.313em 0 0.688em;
+						}
+					}
+
+					.entry-title {
+						font-size: 2em;
+						margin: 0;
+
+						a {
+							border-bottom: none;
+							color: #000000;
+
+							&:hover,
+							&:focus {
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

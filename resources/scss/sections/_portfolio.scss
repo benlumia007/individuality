@@ -16,10 +16,20 @@
 //
 // 1.0 - editor
 //
-@import 'settings/fonts';
+.site-portfolio {
+	.content-area {
+		margin: 0 auto;
+		max-width: 73.125em;
+		padding: 3em 0;
 
-@import 'elements/default';
-@import 'elements/headings';
+		.entry-header {
+			text-align: center;
 
-@import 'blocks/defaults';
-@import 'blocks/columns';
+			.entry-title,
+			.entry-description {
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+}

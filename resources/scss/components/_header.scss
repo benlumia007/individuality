@@ -1,0 +1,44 @@
+//
+// getbenonit ( _header.scss )
+//
+// @package   getbenonit
+// @copyright Copyright (C) 2020. Benjamin Lu
+// @license   GNU General Public License v2 or later ( https://www.gnu.org/licenses/gpl-2.0.html )
+// @author    Benjamin Lu ( https://benjlu.com )
+//
+
+.site-header {
+	background: $snow;
+	border-bottom: 0.063em solid $smoke;
+
+	.branding-navigation {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: $global-spacing;
+
+		.site-branding {
+			.site-title,
+			.site-description {
+				margin: 0;
+				padding: 0;
+			}
+
+			.site-title {
+				float: left;
+				font-size: 1.813em;
+				padding: 0.375em;
+
+				a {
+					border-bottom: none;
+					color: #959595;
+				}
+			}
+
+            .site-description {
+                color: #959595;
+                float: left;
+                padding: 0.5em;
+            }
+		}
+	}
+}

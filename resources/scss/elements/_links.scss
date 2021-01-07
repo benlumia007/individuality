@@ -1,0 +1,21 @@
+//
+// getbenonit ( _links.scss )
+//
+// @package   getbenonit
+// @copyright Copyright (C) 2020. Benjamin Lu
+// @license   GNU General Public License v2 or later ( https://www.gnu.org/licenses/gpl-2.0.html )
+// @author    Benjamin Lu ( https://benjlu.com )
+//
+
+a {
+	border-bottom: 0.063em solid $blue;
+	color: $blue;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		border-bottom: 0.063em solid $red;
+		color: $red;
+		text-decoration: none;
+	}
+}
